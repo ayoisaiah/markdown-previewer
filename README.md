@@ -2,7 +2,7 @@
 
 This is the first project for Free Code Camp's Data Visualization certificate.
 
-Completed On: 14 November 2016
+Completed On: 14 November 2016  
 Last Updated: 08 February 2016
 
 ## Objectives
