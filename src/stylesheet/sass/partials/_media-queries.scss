@@ -1,0 +1,33 @@
+@media screen and (max-width: $breakpoint) {
+  .preview-area {
+    display: none;
+    border: none;
+  }
+
+  .edit-area {
+    width: 100%;
+  }
+
+  .small-screen-only {
+    display: block;
+  }
+
+  .large-screen-only {
+    display: none;
+  }
+
+  .show {
+    display: block;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 550px) {
+  h3 {
+    display: none;
+  }
+}

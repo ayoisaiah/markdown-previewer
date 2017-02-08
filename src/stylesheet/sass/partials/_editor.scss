@@ -1,0 +1,21 @@
+.edit-area {
+  position: relative;
+  width: 50%;
+  height: 100%;
+  float: left;
+  z-index: 20;
+
+  .editor {
+    height: 100%;
+    width: 100%;
+    background-color: $white;
+    padding: 20px;
+    overflow-y: auto;
+    color: #111;
+    border: none;
+    resize: none;
+    font-size: 18px;
+    font-family: 'Source Code Pro', 'Ubuntu Mono', monospace;
+    line-height: 22px;
+  }
+}

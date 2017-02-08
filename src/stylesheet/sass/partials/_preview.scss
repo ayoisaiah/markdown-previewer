@@ -1,0 +1,34 @@
+.preview-area {
+  @extend .edit-area;
+  float: right;
+  background-color: $light-gray;
+  padding: 30px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-left: 1px solid $quill-gray;
+  z-index: 10;
+
+  .preview {
+    max-width: 100%;
+    overflow-wrap: break-word;
+    font-size: 16px;
+  }
+
+  .markdown-body {
+    // Overriding mdl default styles
+    blockquote {
+      display: flex;
+      align-items: center;
+      padding-top: 0.5em;
+      padding-bottom: 0.5em;
+
+      &::before {
+        content: "";
+      }
+
+      &::after {
+        content: "";
+      }
+    }
+  }
+}

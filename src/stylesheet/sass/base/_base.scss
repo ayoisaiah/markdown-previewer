@@ -1,0 +1,13 @@
+main {
+  width: 100%;
+  height: 100vh;
+  font-family: "Roboto", sans-serif;;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.small-screen-only {
+  display: none;
+}
