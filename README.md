@@ -22,4 +22,4 @@ Build an app that is functionally similar to this: https://codepen.io/FreeCodeCa
 
 ## My Work
 
-![React Markdown Previewer Desktop view](https://cdn.rawgit.com/ayoisaiah/markdown-previewer/src/images/desktop.png)
+![React Markdown Previewer](https://cdn.rawgit.com/ayoisaiah/markdown-previewer/23afabd9/src/images/desktop.png)
